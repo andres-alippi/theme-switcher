@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <title>Theme Switcher</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="switch">
+        <div class="moon">
+          <img src="./assets/moon.svg" alt="imagem de uma meia-lua" />
+        </div>
+        <div class="sun">
+          <img src="./assets/sun.svg" alt="imagem de um sol" />
+        </div>
+        <div onclick="Switch.toggle()" class="selector"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
